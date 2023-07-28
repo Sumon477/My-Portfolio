@@ -1,0 +1,36 @@
+.footer{
+    width: 100%;
+    padding: 3rem 0;
+    background-blend-mode: color-burn;
+    background-color: black ;
+
+}
+
+
+
+.left{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.location{
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+
+.location p{
+    line-height: 30px;
+}
+
+
+
+@media  screen and (max-width: 640px) {
+
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+    
+}
